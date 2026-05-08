@@ -1,0 +1,22 @@
+# Secrets — never commit
+.env
+.env.local
+.env*.local
+
+# Next.js build output
+resume-builder/.next/
+resume-builder/out/
+
+# Dependencies
+resume-builder/node_modules/
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
